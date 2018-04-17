@@ -1,8 +1,8 @@
-import ImagoEntity from '@/entity/imagoEntity.model'
+import ImaEntity from '@/entity/imagoEntity.model'
 
 
 // Crea la clase que se extiende de lo que hay en ImagoEntity
-export default class User extends ImagoEntity {
+export default class User extends ImaEntity {
 	//Tiene un constructor, una suerte de molde del que van a salir todos los objetos que se creen con esa clase
   constructor (user) {
 	  	// El constructor trae las propiedades de la clase ImagoEntity
