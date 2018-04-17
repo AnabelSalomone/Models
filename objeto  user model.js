@@ -1,4 +1,4 @@
-import ImaEntity from '@/entity/imagoEntity.model'
+import ImaEntity from '@/entity/imaEntity.model'
 
 
 // Crea la clase que se extiende de lo que hay en ImagoEntity
