@@ -1,11 +1,11 @@
-import ImagoEntity from '@/entity/imagoEntity.model'
+import ImaEntity from '@/entity/imaEntity.model'
 import Address from '@/entity/address.model'
 import User from '@/entity/user.model'
 import { CONTRACTANT_TYPE, CONTRACTANT_TYPE_FROM_API } from '@/entity/contractant-type.model'
 
 
 //crea la clase Contactant que se extiende de la clase ImagoEntity, como user
-export default class Contractant extends ImagoEntity {
+export default class Contractant extends ImaEntity {
 		//Tiene un constructor, una suerte de molde del que van a salir todos los objetos que se creen con esa clase
   constructor (contractant) {
 	  	  	// El constructor trae las propiedades de la clase ImagoEntity, hereda todo
